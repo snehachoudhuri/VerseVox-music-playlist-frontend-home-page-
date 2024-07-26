@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #201E43;
+    font-family:cursive;
+}
+.sidebar{
+    width: 300px;
+    background-color:#201E43;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding: 15px;
+}
+
+.sidebar-nav{
+    background-color: #2a2851;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-nav .logo{
+    width: 300px;
+    
+}
+
+.sidebar-nav .logo img{
+    width: 150px;
+    margin-bottom: 0%;
+}
+
+.sidebar-nav ul{
+    list-style: none;
+}
+
+.sidebar-nav ul li{
+    list-style: none;
+}
+
+.sidebar-nav ul li a{
+    text-decoration: dashed;
+    color: #5d84b0e4;
+    font-size: 18px;
+    font-weight: 150px;
+}
+
+.sidebar-nav ul li a span img{
+    width: 15px;
+    color: white;
+}
+
+.sidebar-nav ul li a:hover{
+    text-decoration: dashed;
+    color: #bde2efe4;
+    font-size: 20px;
+    font-weight: 150px;
+}
+
+.sidebar-nav ul li a span img{
+    font-size: 10px;
+    font-weight: 100px;
+    color:#a9ccf4e4 ;
+}
+
+.like-song{
+    background-color:#3e3b75;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top:3px;
+}
+.create-playlist{
+    background-color:#3e3b75;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.follow-artist{
+    background-color:#3e3b75;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.podcast{
+    background-color:#3e3b75;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.sidebar-scroll{
+    height: 100px;
+    overflow-y: auto;
+}
+
+.like-song button:hover{
+    padding: 6.5px;
+    border: solid 1.5px  rgb(173, 201, 226)
+}
+.follow-artist button:hover{
+    padding: 6.5px;
+    border: solid 1.5px  rgb(173, 201, 226)
+}
+.create-playlist button:hover{
+    padding: 6.5px;
+    border: solid 1.5px  rgb(173, 201, 226)
+}
+.podcast button:hover{
+    padding: 6.5px;
+    border: solid 1.5px  rgb(173, 201, 226)
+}
+
+.sidebar-scroll::-webkit-scrollbar{
+    background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb{
+    width:3px;
+    background:transparent;
+    border-radius: 50px;
+}
+.sidebar-scroll:hover::-webkit-scrollbar-thumb{
+    width: 3px;
+    background:#201E43;
+    border-radius: 50px;
+}
+
+.create-playlist h4{
+    color:rgb(173, 201, 226);
+}
+
+.like-song h4{
+    color: rgb(173, 201, 226);
+}
+
+.follow-artist h4{
+    color: rgb(173, 201, 226);
+}
+
+.podcast h4{
+    color: rgb(173, 201, 226);
+}
+
+.like-song button{
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color:rgb(173, 201, 226);
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border: 1px solid;
+}
+
+.create-playlist button{
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color:rgb(173, 201, 226) ;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border: 1px solid;
+}
+
+.follow-artist button{
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color:rgb(173, 201, 226) ;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border: 1px solid;
+}
+
+.podcast button{
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    color:rgb(173, 201, 226) ;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border: 1px solid;
+}
+
+.privacy ul li a{
+    width: 1px;
+    color: #403e64;
+    text-align: center;
+    margin:3px 4px;
+    font-size: 12px;
+    font-weight: 500px;
+    padding-bottom: px;
+}
+.privacy ul li a:hover{
+   text-decoration: underline;
+   font-size: 14px;
+}
+
+.privacy{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    
+}
+
+.language{
+    padding: 30px;
+}
+
+.language button{
+    padding: 8px;
+    background-color: transparent;
+    color: rgb(173, 201, 226);
+    border-radius: 7.5px;
+    outline: none;
+    border: 0;
+    border: 1px solid rgb(173, 201, 226);
+}
+
+.sidebar-nav box2{
+    padding: 50px;
+}
+
+.language button:hover{
+    padding: 9px;
+    border: solid 2px  rgb(173, 201, 226);
+}
