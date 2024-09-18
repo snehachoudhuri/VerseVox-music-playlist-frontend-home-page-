@@ -25,12 +25,12 @@ body{
 }
 
 .sidebar-nav .logo{
-    width: 300px;
+    width: 350px;
     
 }
 
 .sidebar-nav .logo img{
-    width: 150px;
+    width: 250px;
     margin-bottom: 0%;
 }
 
@@ -45,7 +45,7 @@ body{
 .sidebar-nav ul li a{
     text-decoration: dashed;
     color: #5d84b0e4;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 150px;
 }
 
@@ -210,7 +210,7 @@ body{
 }
 
 .language{
-    padding: 30px;
+    padding: 40px;
 }
 
 .language button{
@@ -223,11 +223,314 @@ body{
     border: 1px solid rgb(173, 201, 226);
 }
 
-.sidebar-nav box2{
+.plans{
+    padding: 10px;
+}
+
+.plans button{
+    padding: 8px;
+    background-color: transparent;
+    color: rgb(173, 201, 226);
+    border-radius: 7.5px;
+    outline: none;
+    border: 0;
+    border: 1px solid rgb(173, 201, 226);
+}
+
+.sidebar-nav .box2{
     padding: 50px;
 }
 
-.language button:hover{
-    padding: 9px;
-    border: solid 2px  rgb(173, 201, 226);
+
+
+.main-section{
+    margin-left: 300px;
+    background: #2a2851;
+    height: 100%;
+    overflow-y: auto;
+    margin-bottom: 80px;
 }
+
+.main-section::-webkit-scrollbar{
+    background: transparent;
+}
+
+.main-section::-webkit-scrollbar-thumb{
+    width:3px;
+    background:transparent;
+    border-radius: 50px;
+}
+.main-section:hover::-webkit-scrollbar-thumb{
+    width: 3px;
+    background:#201E43;
+    border-radius: 50px;
+}
+.main-section .top-nav{
+    padding: 20px 30px;
+    background: #201E43;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section .top-nav button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+.main-section .top-nav .prev-next-btn button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #5d84b0e4 ;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/*.main-section .top-nav .prev-next-btn button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+}
+
+.main-section .top-nav .prev-next-btn button :hover{
+    font-size: 18px;
+    color: aliceblue;
+}*/
+
+.top-nav .login-btn .sign-up{
+    color:#5d84b0e4 ;
+    font-size: 16px;
+    font-weight: 550;
+    padding-right: 40px;
+}
+
+.top-nav .login-btn .login{
+    color:#5d84b0e4 ;
+    font-size: 16px;
+    font-weight: 550;
+    padding-right: 10px;
+}
+
+.top-nav .login-btn .sign-up:hover{
+    color:rgb(173, 201, 226) ;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.top-nav .login-btn .login:hover{
+    color:rgb(173, 201, 226) ;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.spotify-playlist{
+    padding: 20px 40px;
+}
+
+.spotify-playlist h2{
+    color:rgb(173, 201, 226) ;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.spotify-playlist .card {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.spotify-playlist .card .item{
+    min-width: 140px;
+    width: 200px;
+    background-color: #3e3b75;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5.5px;
+}
+
+.spotify-playlist .card .item:hover{
+    min-width: 140px;
+    width: 200px;
+    background-color: #201E43;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5.5px;
+}
+.spotify-playlist .card .item img{
+    min-width: 140px;
+    width: 190px;
+    background-color: #2a2851;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 2px rgba(0 ,0 ,0 ,.1);
+    display: block;
+    transition: 1s;
+}
+
+.spotify-playlist-three .card .item img{
+    min-width: 140px;
+    width: 190px;
+    background-color: #2a2851;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 2px rgba(0 ,0 ,0 ,.1);
+    display: block;
+    transition: 1s;
+}
+
+.spotify-playlist .item h4{
+    color: rgb(173, 201, 226) ;
+    font-size: 16px;
+}
+
+.spotify-playlist .item p{
+    color: rgb(111, 137, 158) ;
+    font-size: 13.5px;
+}
+
+.spotify-playlist .item p:hover{
+    color: rgb(111, 137, 158) ;
+    font-size: 13.5px;
+    text-decoration: underline;
+}
+
+.spotify-playlist-two h2{
+    color:rgb(173, 201, 226) ;
+    font-size: 21.5px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+/*.spotify-playlist .card .item img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    width: 180px;
+}*/
+
+.spotify-playlist-three h2{
+    color:rgb(173, 201, 226) ;
+    font-size: 21.5px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.spotify-playlist .play-btn{
+    position: relative;
+}
+
+.spotify-playlist .play-btn h3{
+    position: absolute;
+    padding: 10px;
+    
+    opacity: 0;
+    top: -180px;
+    right: 8px;
+    transform: 0.3s ease all;
+}
+
+.spotify-playlist .card .item:hover .play-btn h3{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.spotify-playlist .footer-section li a{
+    color: white;
+}
+
+.footer-section{
+    padding: 20px 60px;
+}
+
+.footer-section .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-section .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-section .footer .footer-column{
+    margin: 0 12px;
+}
+
+.footer-section .footer  div{
+    color: #5d84b0e4 ;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.footer-section .footer ul li{
+    list-style: none;
+    margin: 6px 0;
+}
+
+.footer-section .footer ul li a{
+    text-decoration: none;
+    color: #403e64;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-section .footer ul li a:hover{
+    text-decoration: underline;
+    color: #403e64;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+hr{
+    margin: 20px 40px;
+    border: 0;
+    outline: 0;
+    border: 1px solid #5d84b0e4 ;
+    margin-top: 40px;
+}
+
+.copyright{
+    padding: 0 40px;
+    color: #403e64;
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+.sidebar .plans{
+    padding: 40px;
+    margin-left: 50px;
+}
+.sidebar .plans ul li a{
+    text-decoration: none;
+    color: #5d84b0e4;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sidebar .plans ul li a :hover{
+    text-decoration: underline;
+    color: #5d84b0e4 ;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.sidebar.plans ul {
+    list-style: none;
+}
+
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
